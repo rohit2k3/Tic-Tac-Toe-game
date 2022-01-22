@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+}
+body{
+    background-color: #0074D9;
+}
+.containor{
+    box-sizing: border-box;
+    text-align: center;
+}
+.game-box{
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 318px;
+    height: 318px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+}
+.cell-btn{
+    background-color: bisque;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    height: 106px;
+    width: 106px;
+    font-size: 100px;
+}
+#outputmsg{
+    text-align: center;
+    margin: 20px;
+}
+.reset-btn{
+    background-color: #FF4136;
+    color: aliceblue;
+    padding: 7px;
+    border: none;
+}
